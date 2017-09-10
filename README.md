@@ -43,3 +43,14 @@ create .babelrc
 //--------------------------------------------------
 WEBPACK:
 
+npm install --save webpack babel-loader
+
+create server.js
+create www/index.html
+
+//--------------------------------------------------
+REACT:
+
+npm install --save react react-dom
+
+create src/app.js

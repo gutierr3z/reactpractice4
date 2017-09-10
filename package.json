@@ -19,7 +19,11 @@
   "homepage": "https://github.com/gutierr3z/reactpractice4#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.6"
   }
 }
