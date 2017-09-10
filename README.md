@@ -32,3 +32,14 @@ npm install --save babel-preset-latest
 npm install --save babel-preset-react
 
 create .babelrc
+
+    {
+        "presets": [
+            ["latest", { "modules": false }],
+            "react"
+        ]
+    }
+
+//--------------------------------------------------
+WEBPACK:
+
