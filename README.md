@@ -1,4 +1,7 @@
 
+//--------------------------------------------------
+GIT:
+
 git init
 git remote add origin https://github.com/gutierr3z/reactpractice4.git
 git remote -v
@@ -11,4 +14,21 @@ git commit -m 'initial commit'
 // push the current branch and set the remote as upstream
 git push -u origin master
 
-git push
+create .gitigmore
+
+    node_modules
+    www/bundle.js
+
+//--------------------------------------------------
+NPM:
+
+npm init -y
+
+//--------------------------------------------------
+BABEL:
+
+npm install --save babel-core
+npm install --save babel-preset-latest
+npm install --save babel-preset-react
+
+create .babelrc
