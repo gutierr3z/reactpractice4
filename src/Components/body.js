@@ -15,6 +15,13 @@ class Body extends Component {
 
         return (
             <div>
+
+                <div className="oo-resolution">
+                    <img src="./images/cube.gif" />
+                    Please Set Your Screen Resolution To <span>800x600</span> For Optimal Viewing
+                    <img src="./images/cube.gif" />
+                </div>
+
                 <img src="./images/rainbow.gif" width="600" />
 
                 <br />

@@ -4,6 +4,10 @@ const Footer = ( props ) => {
 
     return (
         <footer className="">
+            <strong>
+             Remember!   If you leave, use your browser's back button to return.
+            </strong>
+            <br />
             <img src="./images/download.jpeg" />
             <br />
             Copyright 2017 React Practice Web Site. All rights reserved. World Wide Web.

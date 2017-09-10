@@ -65,3 +65,13 @@ footer {
 .oo-babies {
     text-align: center;
 }
+
+.oo-resolution {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.oo-resolution span {
+    color: red;
+}
