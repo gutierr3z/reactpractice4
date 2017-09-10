@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //--------------------------------------------------
-
+import Footer from './Components/footer';
 //==================================================
 class APP extends Component {
 
@@ -11,7 +11,14 @@ class APP extends Component {
     };
 
     render() {
-        return <h1>hello</h1>
+        return (
+            <div className="container oo-main">
+                <h1><i>Welcome!</i></h1>
+                <img src="./images/rainbow.gif" width="600" />
+                <Footer />
+            </div>
+            
+        );
     };
 };
 
