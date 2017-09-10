@@ -46,6 +46,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+header {
+    text-align: center;
+    background-color: #99CC99;
+}
+
 footer {
     text-align: center;
     background-color: #99CC99;
@@ -54,4 +59,8 @@ footer {
 .oo-main {
     width: 600px;
     padding: 0px;
+}
+
+.oo-babies {
+    text-align: center;
 }
