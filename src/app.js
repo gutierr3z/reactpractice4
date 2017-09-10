@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //--------------------------------------------------
 import Header from './Components/header';
+import Body from './Components/body';
 import Footer from './Components/footer';
 //==================================================
 class APP extends Component {
@@ -16,13 +17,8 @@ class APP extends Component {
             <div className="container oo-main">
                 <Header />
                 
-                <img src="./images/rainbow.gif" width="600" />
-                <br />
-                <div className="oo-babies">
-                    <img src="./images/baby.gif" />
-                    <img src="./images/baby.gif" />
-                    <img src="./images/baby.gif" />
-                </div>
+                <Body />
+
                 <Footer />
             </div>
             
