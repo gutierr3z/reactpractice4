@@ -63,3 +63,10 @@ REACT:
 npm install --save react react-dom
 
 //--------------------------------------------------
+DEPLOY:
+
+add "compile": "webpack", to package.json's scripts
+
+npm run compile
+
+//--------------------------------------------------

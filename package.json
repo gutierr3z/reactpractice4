@@ -1,10 +1,15 @@
 {
   "name": "reactpractice4",
   "version": "1.0.0",
-  "description": "//-------------------------------------------------- GIT:",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.11.2"
   },
   "repository": {
     "type": "git",
