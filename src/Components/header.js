@@ -10,7 +10,7 @@ const Header = ( props ) => {
                 <strong><i>Welcome!</i></strong>
                 <img src="./images/earth2.gif" />
             </h1>
-            <img src="./images/rainbow.gif" width="600" />
+            <img src="./images/alum.gif" width="600" />
         </header>
     );
 };
