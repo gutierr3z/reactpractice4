@@ -9,14 +9,15 @@ class Body extends Component {
 
         super( props );
         this.state = {
-            btnVal : 'XXX'
+            btnVal : 'XXX',
+            counter: 0
         };
     };
 
     render() {
 
         return (
-            <Input btnVal = { this.state.btnVal } />
+            <Input btnVal = { this.state.btnVal } counter = { this.state.counter } />
         );
     };
 };
