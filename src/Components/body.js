@@ -16,6 +16,7 @@ class Body extends Component {
         return (
             <div>
                 <input type="text" id="ipt_txt" />
+                <input type="button" value="Enter" />
             </div>
         );
     };
