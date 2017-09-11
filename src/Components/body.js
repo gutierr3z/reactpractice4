@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //--------------------------------------------------
-
+import Input from './input';
 //==================================================
 class Body extends Component {
     
@@ -14,10 +14,7 @@ class Body extends Component {
     render() {
 
         return (
-            <div>
-                <input type="text" id="ipt_txt" /> &nbsp;
-                <input type="button" value="Enter" />
-            </div>
+            <Input />
         );
     };
 };
