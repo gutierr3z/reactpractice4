@@ -8,13 +8,15 @@ class Body extends Component {
     constructor( props ) {
 
         super( props );
-        this.state = {};
+        this.state = {
+            btnVal : 'XXX'
+        };
     };
 
     render() {
 
         return (
-            <Input btnVal = 'Entersss' />
+            <Input btnVal = { this.state.btnVal } />
         );
     };
 };
