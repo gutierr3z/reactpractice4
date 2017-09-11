@@ -15,6 +15,7 @@ class Body extends Component {
     };
 
     const xx = () => {
+        consel.log( 'xxx', this.state.counter );
         return this.state.counter++;
     };
 
