@@ -12,12 +12,18 @@ class Body extends Component {
             btnVal : 'XXX',
             counter: 0
         };
+
+        this.inc.bind( this );
+    };
+
+    inc() {
+        return this.state.counter;
     };
 
     render() {
 
         return (
-            <Input btnVal = { this.state.btnVal } counter = { this.state.counter } />
+            <Input btnVal = { this.state.btnVal } counter = { this.inc } />
         );
     };
 };

@@ -2,10 +2,17 @@ import React from 'react';
 //==================================================
 const Input = ( props ) => {
 
+    function test() {
+        // console.log( 'hello', props );
+        props.counter();
+    };
+
     return (
         <div>
             <input type="text" id="ipt_txt" /> &nbsp;
-            <input type="button" value={ props.btnVal } onClick = { console.log( 'zzzzz', props.counter ) } />
+            <button onClick = { test }>
+                { props.btnVal }
+            </button>
         </div>
     );
 };
