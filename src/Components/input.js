@@ -5,7 +5,7 @@ const Input = ( props ) => {
     return (
         <div>
             <input type="text" id="ipt_txt" /> &nbsp;
-            <input type="button" value="Enter" />
+            <input type="button" value={ props.btnVal } />
         </div>
     );
 };

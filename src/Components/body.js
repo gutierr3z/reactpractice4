@@ -14,7 +14,7 @@ class Body extends Component {
     render() {
 
         return (
-            <Input />
+            <Input btnVal = 'Entersss' />
         );
     };
 };
