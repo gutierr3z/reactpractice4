@@ -15,7 +15,7 @@ class Body extends Component {
 
         return (
             <div>
-                hello
+                <input type="text" id="ipt_txt" />
             </div>
         );
     };
