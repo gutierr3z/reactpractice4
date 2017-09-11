@@ -20,7 +20,6 @@ class Body extends Component {
                 
                 <div>
                     hello
-                </div>
 
                 
             </div>
