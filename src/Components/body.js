@@ -14,10 +14,14 @@ class Body extends Component {
         };
     };
 
+    const xx = () => {
+        return this.state.counter++;
+    };
+
     render() {
 
         return (
-            <Input btnVal = { this.state.btnVal } counter = { this.state.counter } />
+            <Input btnVal = { this.state.btnVal } counter = { xx } />
         );
     };
 };

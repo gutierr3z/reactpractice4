@@ -9,7 +9,7 @@ const Input = ( props ) => {
     return (
         <div>
             <input type="text" id="ipt_txt" /> &nbsp;
-            <input type="button" value={ props.btnVal } onClick = { test } />
+            <input type="button" value={ props.btnVal } onClick = { props.counter } />
         </div>
     );
 };
