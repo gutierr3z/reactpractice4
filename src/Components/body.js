@@ -15,13 +15,7 @@ class Body extends Component {
 
         return (
             <div>
-
-                
-                
-                <div>
-                    hello
-
-                
+                hello
             </div>
         );
     };
