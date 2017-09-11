@@ -22,7 +22,7 @@ class Body extends Component {
     render() {
 
         return (
-            <Input btnVal = { this.state.btnVal } counter = { xx } />
+            <Input btnVal = { this.state.btnVal } counter = { this.state.counter } />
         );
     };
 };
