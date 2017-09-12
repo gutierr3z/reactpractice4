@@ -7,14 +7,16 @@ class Input extends Component {
     constructor( props ) {
 
         super( props );
-        this.state = {};
+        this.state = {
+            state1: 'state1'
+        };
 
-        this.testx.bind( this );
+        this.testx = this.testx.bind( this );
     };
 
     testx() {
         
-        console.log( 'aaa', this );
+        this.props.xxx();
     };
 
     render() {

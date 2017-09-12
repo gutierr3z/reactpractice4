@@ -13,7 +13,7 @@ class Body extends Component {
             counter: 0
         };
 
-        this.inc.bind( this );
+        this.inc = this.inc.bind( this );
     };
 
     inc() {
