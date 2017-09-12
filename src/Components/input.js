@@ -9,18 +9,20 @@ class Input extends Component {
         super( props );
         this.state = {};
 
-        this.test.bind( this );
+        this.testx.bind( this );
     };
 
-    test() {
-        return typeof this.props.xxx;
+    testx() {
+        // return typeof this.props.xxx;
+        // console.log( 'aaa', typeof this.props.xxx );
+        console.log( 'aaa', this );
     };
 
     render() {
         return (
             <div>
                 <input type="text" id="ipt_txt" /> &nbsp;
-                <button onClick = { this.test }>
+                <button onClick = { this.testx }>
                     { this.props.btnVal }
                 </button>
             </div>
