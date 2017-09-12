@@ -16,9 +16,11 @@ class Body extends Component {
         this.inc = this.inc.bind( this );
     };
 
-    inc( x ) {
+    inc() {
+        var x = this.state.counter + 1;
+
         this.setState({
-            counter: x
+            counter : x
         });
         console.log( 'hi', this.state.counter );
     };

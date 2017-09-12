@@ -16,7 +16,7 @@ class Input extends Component {
 
     testx() {
 
-        this.props.xxx( 5 );
+        this.props.xxx();
     };
 
     render() {
