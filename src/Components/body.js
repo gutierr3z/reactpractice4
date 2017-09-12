@@ -17,13 +17,14 @@ class Body extends Component {
     };
 
     inc() {
-        return this.state.counter;
+
+        console.log( 'hi', this.state.counter );
     };
 
     render() {
 
         return (
-            <Input btnVal = { this.state.btnVal } counter = { this.inc } />
+            <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
         );
     };
 };
