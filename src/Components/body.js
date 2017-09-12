@@ -19,7 +19,7 @@ class Body extends Component {
     };
 
     inc() {
-
+        console.log( 'counter', this.state.counter );
         var x = this.state.counter + 1;
         this.setState({
             counter : x
@@ -31,8 +31,8 @@ class Body extends Component {
 
         return (
             <div>
-            <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
-            <Textarea hello = { this.state.forText } />
+                <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
+                <Textarea hello = { this.state.forText } />
             </div>
         );
     };
