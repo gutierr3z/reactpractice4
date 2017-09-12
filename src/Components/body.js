@@ -17,8 +17,8 @@ class Body extends Component {
     };
 
     inc() {
-        var x = this.state.counter + 1;
 
+        var x = this.state.counter + 1;
         this.setState({
             counter : x
         });
