@@ -13,12 +13,13 @@ class Input extends Component {
     };
 
     testx() {
-        // return typeof this.props.xxx;
-        // console.log( 'aaa', typeof this.props.xxx );
+        
         console.log( 'aaa', this );
     };
 
     render() {
+
+        
         return (
             <div>
                 <input type="text" id="ipt_txt" /> &nbsp;
