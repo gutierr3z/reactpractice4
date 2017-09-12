@@ -18,13 +18,13 @@ class Body extends Component {
         this.inc = this.inc.bind( this );
     };
 
-    inc() {
-        console.log( 'counter', this.state.counter );
+    inc( txt ) {
+        console.log( 'counter', txt );
         var x = this.state.counter + 1;
         this.setState({
             counter : x
         });
-        console.log( 'hi', this.state.counter );
+        // console.log( 'hi', this.state.counter );
     };
 
     render() {

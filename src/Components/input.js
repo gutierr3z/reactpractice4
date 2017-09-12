@@ -15,7 +15,7 @@ class Input extends Component {
 
     testx() {
 
-        this.props.xxx();
+        this.props.xxx( document.querySelector( '#ipt_txt' ).value );
     };
 
     render() {
