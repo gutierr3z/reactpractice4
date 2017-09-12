@@ -21,7 +21,6 @@ class Input extends Component {
 
     render() {
 
-        
         return (
             <div>
                 <input type="text" id="ipt_txt" /> &nbsp;

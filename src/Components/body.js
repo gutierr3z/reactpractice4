@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //--------------------------------------------------
 import Input from './input';
+import Textarea from './textarea';
 //==================================================
 class Body extends Component {
     
@@ -28,7 +29,10 @@ class Body extends Component {
     render() {
 
         return (
+            <div>
             <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
+            <Textarea />
+            </div>
         );
     };
 };
