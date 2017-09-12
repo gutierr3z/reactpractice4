@@ -11,7 +11,8 @@ class Body extends Component {
         super( props );
         this.state = {
             btnVal : 'XXX',
-            counter: 0
+            counter: 0,
+            forText: 'hi hi'
         };
 
         this.inc = this.inc.bind( this );
@@ -31,7 +32,7 @@ class Body extends Component {
         return (
             <div>
             <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
-            <Textarea />
+            <Textarea hello = { this.state.forText } />
             </div>
         );
     };
