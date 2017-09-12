@@ -6,7 +6,7 @@ const Textarea = ( props ) => {
 
         <div>
             <textarea>
-                { props.hello }
+                { props.hello }XXX
             </textarea>
         </div>
     );
