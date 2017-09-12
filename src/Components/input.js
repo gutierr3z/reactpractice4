@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //==================================================
-// const Input = ( props ) => {
 class Input extends Component {
     
     constructor( props ) {
