@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 //==================================================
 class Input extends Component {
     constructor( props ) {
-
         super( props );
         this.state = {
             state1: 'state1'
