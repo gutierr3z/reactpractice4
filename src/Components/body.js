@@ -14,7 +14,6 @@ class Body extends Component {
             counter: 0,
             forText: 'hi hi'
         };
-
         this.inc = this.inc.bind( this );
     };
 
