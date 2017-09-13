@@ -13,7 +13,6 @@ class Input extends Component {
         this.props.xxx( document.querySelector( '#ipt_txt' ).value );
     };
     render() {
-
         return (
             <div>
                 <input type="text" id="ipt_txt" /> &nbsp;
