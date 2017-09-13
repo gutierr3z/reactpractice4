@@ -7,7 +7,6 @@ class Input extends Component {
         this.state = {
             state1: 'state1'
         };
-
         this.testx = this.testx.bind( this );
     };
 
