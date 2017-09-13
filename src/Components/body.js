@@ -5,7 +5,6 @@ import Input from './input';
 import Textarea from './textarea';
 //==================================================
 class Body extends Component {
-    
     constructor( props ) {
         super( props );
         this.state = {
