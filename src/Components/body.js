@@ -24,7 +24,6 @@ class Body extends Component {
         this.setState({
             counter : x
         });
-        // console.log( 'hi', this.state.counter );
     };
 
     render() {
