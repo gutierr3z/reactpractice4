@@ -12,7 +12,6 @@ const Header = ( props ) => {
                 </h1>
                 <img src="./images/alum.gif" width="600" />
             </header>
-
             <div className="oo-resolution">
                 <img src="./images/cube.gif" />
                 Please Set Your Screen Resolution To <span>800x600</span> For Optimal Viewing
