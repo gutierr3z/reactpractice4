@@ -7,8 +7,9 @@ const Footer = ( props ) => {
         <div>
 
             <img src="./images/rainbow.gif" width="600" />
-            <br />
             
+            <br />
+
             <div className="oo-babies">
                 <img src="./images/baby.gif" />
                 <img src="./images/baby.gif" />
