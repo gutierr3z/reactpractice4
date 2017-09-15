@@ -19,6 +19,7 @@ const Footer = ( props ) => {
 
             <footer className="">
 
+
                 <strong>
                 Remember!   If you leave, use your browser's back button to return.
                 </strong>
