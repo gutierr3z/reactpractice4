@@ -4,7 +4,6 @@ const Header = ( props ) => {
 
     return (
         <div>
-
             <header className="">
 
                 <img src="./images/alum.gif" width="600" />
