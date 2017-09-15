@@ -1,41 +1,40 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 //--------------------------------------------------
-
+import Input from './input';
+import Textarea from './textarea';
 //==================================================
 class Body extends Component {
-    
+
     constructor( props ) {
 
         super( props );
-        this.state = {};
+        this.state = {
+            btnVal : 'XXX',
+            counter: 0,
+            forText: 'hi hi'
+        };
+
+        this.inc = this.inc.bind( this );
+    };
+
+    inc( txt ) {
+
+        console.log( 'counter', txt );
+
+        var x = this.state.counter + 1;
+
+        this.setState({
+            counter : x
+        });
     };
 
     render() {
-
+        
         return (
             <div>
-
-                <div className="oo-resolution">
-                    <img src="./images/cube.gif" />
-                    Please Set Your Screen Resolution To <span>800x600</span> For Optimal Viewing
-                    <img src="./images/cube.gif" />
-                </div>
-                <img src="./images/rainbow.gif" width="600" />
-                
-                <div>
-                    hello
-                </div>
-
-                <img src="./images/rainbow.gif" width="600" />
-
-                <br />
-
-                <div className="oo-babies">
-                    <img src="./images/baby.gif" />
-                    <img src="./images/baby.gif" />
-                    <img src="./images/baby.gif" />
-                </div>
+                <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
+                <Textarea hello = { this.state.forText } />
             </div>
         );
     };
