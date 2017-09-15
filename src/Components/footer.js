@@ -30,6 +30,7 @@ const Footer = ( props ) => {
 
                 <br />
 
+
                 <img src="./images/download.jpeg" />
 
                 <br />
