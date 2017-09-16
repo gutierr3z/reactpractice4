@@ -11,7 +11,6 @@ const Footer = ( props ) => {
             <br />
 
             <div className="oo-babies">
-
                 <img src="./images/baby.gif" />
 
                 <img src="./images/baby.gif" />
@@ -25,7 +24,7 @@ const Footer = ( props ) => {
                 <strong>
 
                 Remember!   If you leave, use your browser's back button to return.
-                
+
                 </strong>
 
                 <br />
