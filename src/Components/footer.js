@@ -25,7 +25,6 @@ const Footer = ( props ) => {
                 <br />
                 <img src="./images/counter.gif" />
                 <br />
-
                 <img src="./images/download.jpeg" />
 
                 <br />
