@@ -23,10 +23,13 @@ const Footer = ( props ) => {
                 </strong>
 
                 <br />
-                
+
                 <img src="./images/counter.gif" />
+
                 <br />
+
                 <img src="./images/download.jpeg" />
+                
                 <br />
 
                 Copyright 2017 React Practice Web Site. All rights reserved. World Wide Web.
