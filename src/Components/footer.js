@@ -11,10 +11,11 @@ const Footer = ( props ) => {
             <br />
 
             <div className="oo-babies">
+
+                <img src="./images/baby.gif" />
+                <img src="./images/baby.gif" />
+                <img src="./images/baby.gif" />
                 
-                <img src="./images/baby.gif" />
-                <img src="./images/baby.gif" />
-                <img src="./images/baby.gif" />
             </div>
 
             <footer className="">
