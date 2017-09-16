@@ -29,8 +29,9 @@ const Footer = ( props ) => {
                 <br />
                 Copyright 2017 React Practice Web Site. All rights reserved. World Wide Web.
                 <img src="./images/alum.gif" width="600" />
-                
+
             </footer>
+            
         </div>
     );
 };
