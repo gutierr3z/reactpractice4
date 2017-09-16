@@ -20,7 +20,6 @@ const Footer = ( props ) => {
 
                 <strong>
                 Remember!   If you leave, use your browser's back button to return.
-
                 </strong>
 
                 <br />
