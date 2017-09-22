@@ -30,8 +30,9 @@ class Body extends Component {
     };
 
     render() {
-        
+
         return (
+            
             <div>
                 <Input btnVal = { this.state.btnVal } xxx = { this.inc } />
                 <Textarea hello = { this.state.forText } />
